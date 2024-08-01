@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 14</title>
+    </head>
+    <body>
+        <h2>My First JavaScript</h2>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display date</button>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <script>
+            document.getElementById('demo2').innerHTML = "Hello JavaScript!";
+        </script>
+        <button type="button" onclick="myFunction()">Click</button>
+        <p id="demo3">This is a demostration.</p>
+        <script>
+            function myFunction() {
+                document.getElementById("demo3").innerHTML = "Hello!"
+            }
+        </script>
+        <p id="demo4">JavaScript can change the style.</p>
+        <button type="button" onclick="dane()">Click me!</button>
+        <script>
+        function dane() {
+            document.getElementById("demo4").style.backgroundColor= "red"
+            document.getElementById("demo4").style.fontSize= "25px"
+            document.getElementById("demo4").style.color= "white"
+        }
+        </script>
+        <p>
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw == 0){
+                    pic = "images/pic_bulboff.gif"
+                }
+                else {
+                    pic = "images/pic_bulbon.gif"
+                }
+                document.getElementById("myimage").src = pic;
+            }
+        </script>
+        </p>
+        <img id="myimage" src="images/pic_bulboff.gif">
+        <p>
+        <button type="button" onclick="light(1)">Light on</button>
+        <button type="button" onclick="light(0)">Light off</button>
+        </p>
+        <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    </body>
+</html>
