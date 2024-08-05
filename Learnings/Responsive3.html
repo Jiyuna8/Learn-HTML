@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 18</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .menu{
+                float: left;
+                width: 20%;
+                text-align: center;
+            }
+            .menu a{
+                background-color: aliceblue;
+                padding: 8px;
+                margin-top: 7px;
+                display: block;
+                width: 100%;
+                color: black;
+            }
+            .main{
+                float: left;
+                width: 60%;
+                padding: 20px;
+            }
+            .right{
+                float: left;
+                background-color: aliceblue;
+                width: 20%;
+                padding: 15px;
+                margin-top: 7px;
+                text-align: center;
+            }
+            @media only screen and (max-width: 620px){
+                .main, .menu, .right{
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body style="color: grey;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+
+    <div style="background-color: aliceblue; padding: 15px; text-align: center;">
+            <h1>Hello World</h1>
+    </div>
+
+    <div style="overflow: auto;">
+        <div class="menu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </div>
+        <div class="main">
+            <h2>Lorum Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div class="right">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </div>
+
+        <div style="background-color:aliceblue;text-align: center;margin-top: 7px;padding: 10px;">Lorem Ipsum</div>
+    </body>
+</html>
