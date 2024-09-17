@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Margin-Padding</title>
+        <style>
+            div.first {
+                padding: 50px;
+                border: 1px solid blue;
+                background-color: aliceblue;
+                margin-top: 80px;
+                margin-bottom: 80px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+
+            div.second {
+                width: 300px;
+                border: 1px solid blue;
+                padding: 50px 25px;
+                background-color: aliceblue;
+                margin: 80px 100px 80px 100px;
+            }
+
+            div.third {
+                margin: 100px;
+                width: 300px;
+                border: 1px solid blue;
+                padding: 50px 25px;
+                box-sizing: border-box;
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="first">This is a div.</div>
+
+        <div class="second">This is second div. 350px cause there is no box-sizing.</div>
+
+        <div class="third">This is third div. 300px cause there is box-sizing.</div>
+    </body>
+</html>
