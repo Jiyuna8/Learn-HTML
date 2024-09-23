@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td{
+                border-bottom: 1px solid gray;
+                text-align: left;
+                padding: 10px;
+            }
+
+            tr:nth-child(even) {
+                background-color: cornflowerblue;
+            }
+
+            tr:hover{
+                background-color: bisque;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table class="one">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Points</th>
+            </tr>
+
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>Lois</td>
+                <td>Michael</td>
+                <td>150</td>
+            </tr>
+            
+            <tr>
+                <td>Joe</td>
+                <td>Svenson</td>
+                <td>220</td>
+            </tr>
+        </table>
+    </body>
+</html>
